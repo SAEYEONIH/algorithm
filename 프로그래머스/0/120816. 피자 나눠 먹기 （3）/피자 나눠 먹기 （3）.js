@@ -1,0 +1,1 @@
+const solution = (slice, n) => n % slice ===0 ? n / slice : Math.floor(n / slice) + 1;
